@@ -1,0 +1,26 @@
+{
+	"name": "GradientText",
+	"version": "0.1.0",
+	"main": "index.js",
+  "author": {
+    "name": "Viktor Gardart",
+    "email": "viktor@gardart.se"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "label",
+    "gradient",
+    "gradient text"
+  ],
+  "homepage": "https://github.com/viktorgardart/GradientText",
+  "bugs": {
+      "url": "https://github.com/viktorgardart/GradientText/issues"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/viktorgardart/GradientText.git"
+  }
+}
