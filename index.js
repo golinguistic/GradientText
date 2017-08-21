@@ -11,9 +11,7 @@ import {
 class GradientText extends Component {
   render() {
     return (
-      <GradientTextNative>
-        Tjenare mannen!
-      </GradientTextNative>
+      <GradientTextNative title={`Tjenare mannen`} />
     )
   }
 }
