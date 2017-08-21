@@ -25,6 +25,6 @@ GradientText.propTypes = {
   title: PropTypes.string
 }
 
-const GradientTextLabel = requireNativeComponent('GradientTextManager', GradientText);
+const GradientTextLabel = requireNativeComponent('GradientText', GradientText);
 
 export default GradientText;
