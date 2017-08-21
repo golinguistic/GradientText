@@ -11,10 +11,10 @@ import UIKit
 @objc(GradientTextManager)
 class GradientTextManager: RCTViewManager {
 
-  let view = GradientText()
+  let presentedView = GradientTextView()
 
   override func view() -> UIView! {
-    return view
+    return presentedView
   }
 
 }

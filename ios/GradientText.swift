@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GradientText: RCTView {
+class GradientTextView: RCTView {
 
   var label: GradientTextLabel? = nil
 
@@ -30,17 +30,15 @@ class GradientText: RCTView {
     }
     label?.bounds = bounds
     label?.config = config
-    backgroundColor = .green
-    print(bounds)
   }
 
   @objc(set_title:forView:withDefaultView:)
-  func setTitle(text: NSString, view: GradientText, default: GradientText) {
+  func setTitle(text: NSString, view: GradientTextView, default: GradientTextView) {
     title = text as String
   }
 
   @objc(set_configuration:forView:withDefaultView:)
-  func setConfiguration(data: NSDictionary, view: GradientText, default: GradientText) {
+  func setConfiguration(data: NSDictionary, view: GradientTextView, default: GradientTextView) {
     guard let data = data as? [String: AnyObject] else {
       config = .standard
       return
