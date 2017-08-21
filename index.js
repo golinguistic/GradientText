@@ -11,18 +11,18 @@ import {
 class GradientText extends Component {
   render() {
     return (
-      <Text>Tjenare mannen!</Text>
+      <GradientTextNative>
+        Tjenare mannen!
+      </GradientTextNative>
     )
   }
 }
 
-// GradientText.propTypes = {
-//   configuration: PropTypes.object,
-//   title: PropTypes.string
-// }
+GradientText.propTypes = {
+  configuration: PropTypes.object,
+  title: PropTypes.string
+}
 
-// const GradientTextLabel = requireNativeComponent('GradientText', GradientText);
+const GradientTextNative = requireNativeComponent('GradientText', GradientText);
 
-export default {
-  GradientText
-};
+export default GradientText;
