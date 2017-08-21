@@ -34,9 +34,10 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* GradientTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GradientTextTests.m */; };
-		3E8F9F4B1F4A21C400DDFD32 /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F9F4A1F4A21C400DDFD32 /* GradientText.swift */; };
+		3E8F9F4B1F4A21C400DDFD32 /* GradientTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F9F4A1F4A21C400DDFD32 /* GradientTextLabel.swift */; };
 		3E8F9F4D1F4A22D100DDFD32 /* GradientTextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F9F4C1F4A22D100DDFD32 /* GradientTextManager.swift */; };
 		3E8F9F501F4A233A00DDFD32 /* GradientTextModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F9F4F1F4A233A00DDFD32 /* GradientTextModule.m */; };
+		3EA7543C1F4B32900028B847 /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA7543B1F4B32900028B847 /* GradientText.swift */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
@@ -284,9 +285,10 @@
 		2D02E47B1E0B4A5D006451C7 /* GradientText-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GradientText-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* GradientText-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GradientText-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8F9F491F4A21C400DDFD32 /* GradientText-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GradientText-Bridging-Header.h"; sourceTree = "<group>"; };
-		3E8F9F4A1F4A21C400DDFD32 /* GradientText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
+		3E8F9F4A1F4A21C400DDFD32 /* GradientTextLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientTextLabel.swift; sourceTree = "<group>"; };
 		3E8F9F4C1F4A22D100DDFD32 /* GradientTextManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientTextManager.swift; sourceTree = "<group>"; };
 		3E8F9F4F1F4A233A00DDFD32 /* GradientTextModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientTextModule.m; sourceTree = "<group>"; };
+		3EA7543B1F4B32900028B847 /* GradientText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -431,10 +433,11 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				3E8F9F4A1F4A21C400DDFD32 /* GradientText.swift */,
 				3E8F9F491F4A21C400DDFD32 /* GradientText-Bridging-Header.h */,
 				3E8F9F4C1F4A22D100DDFD32 /* GradientTextManager.swift */,
 				3E8F9F4F1F4A233A00DDFD32 /* GradientTextModule.m */,
+				3E8F9F4A1F4A21C400DDFD32 /* GradientTextLabel.swift */,
+				3EA7543B1F4B32900028B847 /* GradientText.swift */,
 			);
 			name = GradientText;
 			sourceTree = "<group>";
@@ -982,9 +985,10 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				3E8F9F501F4A233A00DDFD32 /* GradientTextModule.m in Sources */,
+				3EA7543C1F4B32900028B847 /* GradientText.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				3E8F9F4D1F4A22D100DDFD32 /* GradientTextManager.swift in Sources */,
-				3E8F9F4B1F4A21C400DDFD32 /* GradientText.swift in Sources */,
+				3E8F9F4B1F4A21C400DDFD32 /* GradientTextLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,15 +11,10 @@ import UIKit
 @objc(GradientTextManager)
 class GradientTextManager: RCTViewManager {
 
-  let label = GradientText()
+  let view = GradientText()
 
   override func view() -> UIView! {
-    return label
-  }
-
-  @objc(set_title:forView:withDefaultView:)
-  func set(title: String, forView: GradientTextManager, defaultView: GradientTextManager) {
-    label.title = title
+    return view
   }
 
 }
