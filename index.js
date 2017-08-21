@@ -27,4 +27,4 @@ GradientText.propTypes = {
 
 const GradientTextLabel = requireNativeComponent('GradientText', GradientText);
 
-module.exports = GradientTextLabel;
+export default GradientText;
