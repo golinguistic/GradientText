@@ -10,21 +10,19 @@ import {
 
 class GradientText extends Component {
   render() {
-    const title = this.props.children || this.props.title
     return (
-      <GradientTextLabel
-        style={this.props.style}
-        configuration={this.props.configuration}
-        title={title || `No title`} />
+      <Text>Tjenare mannen!</Text>
     )
   }
 }
 
-GradientText.propTypes = {
-  configuration: PropTypes.object,
-  title: PropTypes.string
-}
+// GradientText.propTypes = {
+//   configuration: PropTypes.object,
+//   title: PropTypes.string
+// }
 
-const GradientTextLabel = requireNativeComponent('GradientText', GradientText);
+// const GradientTextLabel = requireNativeComponent('GradientText', GradientText);
 
-export default GradientText;
+export default {
+  GradientText
+};

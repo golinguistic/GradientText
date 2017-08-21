@@ -1,7 +1,7 @@
 {
-	"name": "react-native-gradient-text",
-	"version": "0.1.4",
-	"main": "index.js",
+  "name": "react-native-gradient-text",
+  "version": "0.1.6",
+  "main": "index.js",
   "author": {
     "name": "Viktor Gardart",
     "email": "viktor@gardart.se"
@@ -17,10 +17,10 @@
   ],
   "homepage": "https://github.com/viktorgardart/GradientText",
   "bugs": {
-      "url": "https://github.com/viktorgardart/GradientText/issues"
+    "url": "https://github.com/viktorgardart/GradientText/issues"
   },
   "repository": {
-      "type": "git",
-      "url": "git://github.com/viktorgardart/GradientText.git"
+    "type": "git",
+    "url": "git://github.com/viktorgardart/GradientText.git"
   }
 }
