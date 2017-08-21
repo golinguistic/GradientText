@@ -14,7 +14,7 @@ class GradientText extends Component {
     return (
       <GradientTextLabel
         style={this.props.style}
-        configuration={this.props.config}
+        configuration={this.props.configuration}
         title={title || `No title`} />
     )
   }
@@ -25,6 +25,6 @@ GradientText.propTypes = {
   title: PropTypes.string
 }
 
-const GradientTextLabel = requireNativeComponent('GradientText', GradientText);
+const GradientTextLabel = requireNativeComponent('GradientTextManager', GradientText);
 
 export default GradientText;
