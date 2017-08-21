@@ -30,6 +30,8 @@ class GradientText: RCTView {
     }
     label?.bounds = bounds
     label?.config = config
+    backgroundColor = .green
+    print(bounds)
   }
 
   @objc(set_title:forView:withDefaultView:)
