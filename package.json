@@ -23,8 +23,11 @@
     "type": "git",
     "url": "git://github.com/golinguistic/GradientText.git"
   },
-	"peerDependencies": {
-		"react": "^16.2.0",
-		"react-native": "^0.50.4"
-	}
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-native": "^0.50.4"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  }
 }
